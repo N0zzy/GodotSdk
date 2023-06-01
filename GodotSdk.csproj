@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Configurations>Debug;Release;ExportDebug</Configurations>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Godot.SourceGenerators" Version="4.0.3" />
+        <PackageReference Include="GodotSharp" Version="4.0.3" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <ProjectReference Include="..\SharpieSdk\SharpieSdk.csproj" />
+    </ItemGroup>
+</Project>
